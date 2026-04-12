@@ -1,0 +1,35 @@
+{
+  "name": "@phoenix-assistant/agent-memory-skill-compounding",
+  "version": "0.1.0",
+  "description": "Persistent agent memory with skill accumulation and knowledge compounding",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "agents",
+    "memory",
+    "skills",
+    "knowledge",
+    "persistence"
+  ],
+  "author": "Phoenix Assistant",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phoenix-assistant/agent-memory-skill-compounding.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^22.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
